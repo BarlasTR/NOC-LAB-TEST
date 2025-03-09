@@ -3,16 +3,21 @@ Bu repo, ağ yönetimi, güvenlik, ağ izleme ve hata tespiti ile ilgili NOC mü
 
 ## 📌 İçindekiler  
 🔹 **Network Monitoring** → Zabbix, Grafana, Wireshark ile analizler 
+
 🔹 **Security & Firewall** → IPTables, DDoS önleme, Cisco ACL 
+
 🔹 **Troubleshooting** → DNS, Ping, Traceroute analizleri 
+
 🔹 **Automation Scripts** → Python ile log analizi ve ağ yönetimi 
+
 🔹 **Lab Setup** → VMware, Cisco Packet Tracer, Linux test ortamları 
+
 
 ## 🚀 Nasıl Kullanılır?  
 1️⃣ Reponun bir kopyasını alın: 
 ```bash
-git clone https://github.com/kullanici/NOC-LAB-TEST.git
-pip install -r requiremen
+git clone https://github.com/BarlasTR/NOC-LAB-TEST.git
+pip install -r "GÜNCELLENECEK"
 ```
 ## **📌 Sonuç**  
 Bu yapı, **projeni düzenli ve okunabilir hale getirecek** ve **GitHub üzerinden etkili bir şekilde paylaşmanı sağlayacaktır.**  
