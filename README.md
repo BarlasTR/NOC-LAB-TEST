@@ -20,12 +20,12 @@ git clone https://github.com/BarlasTR/NOC-LAB-TEST.git
 pip install -r "GÜNCELLENECEK"
 ```
 ## **📌 Sonuç**  
-Bu yapı, **projeni düzenli ve okunabilir hale getirecek** ve **GitHub üzerinden etkili bir şekilde paylaşmanı sağlayacaktır.**  
+**Bu Projede NOC Mühendisliği aşamasında ki test lablerimi sizlerle paylaşarak farklı seneryolara imza atacağım.**
 
-📌 **Eğer bu projeye yeni senaryolar eklemek istersen, şu adımları takip edebilirsin:**  
-1️⃣ **Gerçek bir problem belirle (Örneğin: "Bir IP adresinin DDoS saldırısı yaptığını nasıl tespit ederim?")**  
-2️⃣ **Bu sorunu çözmek için hangi adımları uygulayacağını yaz (README.md’ye ekle)**  
-3️⃣ **Komutları ve test sonuçlarını paylaş (Wireshark, Zabbix veya Grafana çıktıları olabilir)**  
-4️⃣ **Python veya Bash betikleriyle çözümü otomatikleştirebilir misin? Bunu da ekleyebilirsin.**  
+📌 **Bu projeye farklı yeni senaryolara göz atarken izleyeceğim adımlar:**  
+1️⃣ **Gerçek bir problem belirleyeceğim (Örneğin: "Bir IP adresinin DDoS saldırısı yaptığını nasıl tespit ederim?")**  
+2️⃣ **Bu sorunu çözmek için hangi adımları uygulayacağımı yazacağım.**  
+3️⃣ **Komutları ve test sonuçlarını paylaşacağım ve raporlayacağım (Zabbix veya Grafana vs.)**  
+4️⃣ **Python veya Bash betikleriyle çözümü otomatikleştireceğim.**  
 
-🚀 **Bunu GitHub üzerinden paylaştığında, NOC ve ağ güvenliği alanında çalışmak isteyenler için harika bir kaynak olabilir!** 😊
+🚀 **Benim gibi NOC ve ağ güvenliği alanında çalışmak isteyenler için harika bir kaynak olabileceğini düşünerek bu projeye imza attım!** 😊
