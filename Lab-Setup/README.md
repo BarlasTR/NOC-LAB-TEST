@@ -1,77 +1,50 @@
 # 🖥️ Sanal Lab Ortamı Kurulumu
 
-Bu kılavuz, NOC mühendisliği için sanal test ortamının nasıl oluşturulacağını anlatır.
+Bu kılavuz, **VMware Workstation Player** ve **VirtualBox** kullanarak Ubuntu sanal makinesi oluşturmayı anlatır.
 
-## 1️⃣ VMware Workstation Player / VirtualBox Kurulumu
-VMware veya VirtualBox'u aşağıdaki linklerden indirerek kurabilirsiniz:
-- [VMware Workstation Player](https://www.vmware.com/products/workstation-player.html)
-- [VirtualBox](https://www.virtualbox.org/)
+--- 
 
-## 📌 **1. VMware Workstation 17 Player Açma**  
-İlk olarak VMware Workstation Player'ı açın. Eğer kurulu değilse [buradan](https://www.vmware.com/products/workstation-player.html) indirebilirsiniz.
+### **📌 VMware Workstation Player ve VirtualBox Kurulum Linkleri:**
 
-![VMware Ana Ekranı](images/lab-setup-image0.png)
+VMWare Workstation Player [buradan](https://www.vmware.com/products/workstation-player.html)
 
-## 📌 **2. Yeni Bir Sanal Makine Oluşturma**  
-VMware ana ekranında **"Create a New Virtual Machine"** seçeneğine tıklayın.
+VirtualBox [buradan](https://www.virtualbox.org)
 
-![Yeni Sanal Makine Oluşturma](images/Slab-setup-image1.png)
+---
 
-Burada:
-- **Installer disc image file (ISO)** seçeneğini işaretleyin.
-- Ubuntu 24.04 ISO dosyanızı seçin.
-- **Next** butonuna tıklayın.
+## 🔹 **1. VMware Workstation ile Kurulum**  
 
-## 📌 **3. Kullanıcı Bilgilerini Girme (Easy Install Mode)**  
-Bu adımda Ubuntu'nun otomatik kurulumu için kullanıcı bilgilerini girin:
+**VMware Workstation 17 Player** ile Ubuntu kurulumu için aşağıdaki adımları takip edin.
 
-- **Full Name:** test  
-- **User Name:** testuser  
-- **Password:** (Güvenli bir parola belirleyin)  
+![VMware Ana Ekranı](images/vmware_home.png)
 
-![Kullanıcı Bilgileri](images/lab-setup-image2.png)
+### **📌 VMware Kurulum Adımları:**
+1. **Create a New Virtual Machine** seçeneğine tıklayın.
+2. Ubuntu ISO dosyanızı seçin.
+3. Kullanıcı adı ve şifre belirleyin.
+4. Disk boyutunu 20GB olarak ayarlayın.
+5. **Finish** butonuna basarak sanal makineyi başlatın.
 
-**Next** butonuna tıklayarak devam edin.
+Daha detaylı bilgi için **[VMware Kurulum Rehberi](VMware/README.md)** bölümüne bakabilirsiniz.
 
-## 📌 **4. Sanal Makine İsmi ve Konumu Seçme**  
-Sanal makineye bir isim verin ve kaydedileceği yeri seçin. Varsayılan olarak **"Ubuntu 64-bit"** olarak gelecektir. 
+## 🔹 **2. VirtualBox ile Kurulum**  
 
-![Sanal Makine Adı](images/lab-setup-image3.png)
+**VirtualBox** kullanarak Ubuntu sanal makinesi oluşturmak için şu adımları izleyin:
 
-**Next** butonuna tıklayın.
+![VirtualBox Ana Ekranı](images/virtualbox_home.png)
 
-## 📌 **5. Disk Boyutunu Ayarlama**  
-Ubuntu'nun disk boyutunu belirleyin. **20 GB** önerilen boyuttur.  
-İki seçenek vardır:
-- **Store virtual disk as a single file:** Tek bir büyük disk dosyası oluşturur.
-- **Split virtual disk into multiple files:** Daha küçük dosyalara böler (taşınabilirlik için önerilir).
+### **📌 VirtualBox Kurulum Adımları:**
+1. **New** butonuna tıklayın.
+2. Ubuntu 64-bit işletim sistemini seçin.
+3. **RAM miktarını 4GB**, disk boyutunu **20GB** olarak belirleyin.
+4. Sanal makineyi oluşturun ve Ubuntu ISO dosyanızı bağlayın.
+5. **Başlat (Start)** butonuna tıklayarak kuruluma geçin.
 
-![Disk Boyutu Ayarı](images/lab-setup-image4.png)
+Daha detaylı bilgi için **[VirtualBox Kurulum Rehberi](virtualbox/README.md)** bölümüne bakabilirsiniz.
 
-**Next** butonuna tıklayın.
+---
 
-## 📌 **6. Sanal Makineyi Başlatma**  
-Son olarak, özet ekranında ayarları kontrol edip **"Finish"** butonuna tıklayın.  
-Ubuntu sanal makineniz otomatik olarak kurulmaya başlayacaktır. 🎉  
-
-
-
-Kurulum tamamlandıktan sonra ayarlarınızı aşağıdaki gibi yapılandırın, minimum olması gereken ayarlar:
-
-| Ayar | Değer |
-|------|-------|
-| RAM  | 4 GB |
-| CPU  | 2 Çekirdek |
-| Disk | 20 GB |
-
-## 2️⃣ Linux Sanal Makine Kurulumu
-- Ubuntu 22.04 ISO dosyasını indirin: [Ubuntu Download](https://ubuntu.com/download)
-- VMware veya VirtualBox’ta yeni bir sanal makine oluşturun.
-- ISO dosyasını bağlayarak işletim sistemini kurun.
-
-## 3️⃣ Ağ Yapılandırması (NAT & Bridge)
-Komut satırında ağ arayüzlerini kontrol edin:
-```bash
-ip a
-```
+## ✅ **Bilgilendirmeler**
+- **VMware daha stabil ve gelişmiş özellikler sunarken, VirtualBox daha hafif ve ücretsizdir.**
+- **İkisi de sanal test ortamları kurmak için uygundur.**
 
