@@ -10,12 +10,12 @@ VMware veya VirtualBox'u aşağıdaki linklerden indirerek kurabilirsiniz:
 ## 📌 **1. VMware Workstation 17 Player Açma**  
 İlk olarak VMware Workstation Player'ı açın. Eğer kurulu değilse [buradan](https://www.vmware.com/products/workstation-player.html) indirebilirsiniz.
 
-![VMware Ana Ekranı](images/Screenshot_1.png)
+![VMware Ana Ekranı](images/lab-setup-image0.png)
 
 ## 📌 **2. Yeni Bir Sanal Makine Oluşturma**  
 VMware ana ekranında **"Create a New Virtual Machine"** seçeneğine tıklayın.
 
-![Yeni Sanal Makine Oluşturma](images/Screenshot_2.png)
+![Yeni Sanal Makine Oluşturma](images/Slab-setup-image1.png)
 
 Burada:
 - **Installer disc image file (ISO)** seçeneğini işaretleyin.
@@ -29,14 +29,14 @@ Bu adımda Ubuntu'nun otomatik kurulumu için kullanıcı bilgilerini girin:
 - **User Name:** testuser  
 - **Password:** (Güvenli bir parola belirleyin)  
 
-![Kullanıcı Bilgileri](images/Screenshot_3.png)
+![Kullanıcı Bilgileri](images/lab-setup-image2.png)
 
 **Next** butonuna tıklayarak devam edin.
 
 ## 📌 **4. Sanal Makine İsmi ve Konumu Seçme**  
 Sanal makineye bir isim verin ve kaydedileceği yeri seçin. Varsayılan olarak **"Ubuntu 64-bit"** olarak gelecektir. 
 
-![Sanal Makine Adı](images/Screenshot_4.png)
+![Sanal Makine Adı](images/lab-setup-image3.png)
 
 **Next** butonuna tıklayın.
 
@@ -46,7 +46,7 @@ Ubuntu'nun disk boyutunu belirleyin. **20 GB** önerilen boyuttur.
 - **Store virtual disk as a single file:** Tek bir büyük disk dosyası oluşturur.
 - **Split virtual disk into multiple files:** Daha küçük dosyalara böler (taşınabilirlik için önerilir).
 
-![Disk Boyutu Ayarı](images/Screenshot_5.png)
+![Disk Boyutu Ayarı](images/lab-setup-image4.png)
 
 **Next** butonuna tıklayın.
 
@@ -74,6 +74,4 @@ Komut satırında ağ arayüzlerini kontrol edin:
 ```bash
 ip a
 ```
-![Sanal Lab Ortamı](images/lab-setup-image1.png)
-![Sanal Lab Ortamı](images/lab-setup-image1.png)
 
