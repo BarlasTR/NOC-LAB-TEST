@@ -48,3 +48,39 @@ Ubuntu'nun disk boyutunu belirleyin. **20 GB** önerilen boyuttur.
 ## 📌 **6. Sanal Makineyi Başlatma**  
 Son olarak, özet ekranında ayarları kontrol edip **"Finish"** butonuna tıklayın.  
 Ubuntu sanal makineniz otomatik olarak kurulmaya başlayacaktır. 🎉  
+Ubuntu sanal makineniz başladıkta sonra Ubuntu kurulumunuzu custom bir şekilde yapabilirsiniz.🎉  
+
+## 📌 **7. Sanal Makineyi Özelleştirme ve Ağ Ayarları** 
+Bu adımda sanal makinenin virtual machine settings kısmına geliniz:
+
+![Sanal Makine Ayarı](images/vm-setup5.png)
+
+**Hard Disk (SCSI)** Ubuntu'nun disk boyutunu belirleyin. **20 GB** önerilen boyuttur.  
+**Memory** Ubuntu'nun ram boyutunu belirleyin. **4 GB** önerilen boyuttur.  
+**Processors** Ubuntu'nun işlemci çekirdek boyutunu belirleyin. **4** önerilen çekirdek boyuttur.  
+**Sound Card** Ubuntu'nun ses kartını belirleyin. **Auto detect** olarak kalabilir.  
+**Display** Ubuntu'nun ekran yöneticisini belirler. **Auto detect** olarak kalabilir, ekran üzerinde kasma veya donma problemleri mevcut ise çözünürlük değiştirebilirsiniz.  
+**Sound Card** Ubuntu'nun ses kartını belirleyin. **Auto detect** olarak kalabilir.  
+**Network Adapter** Ubuntu'nun ağ ayarlarını belirler ve önemlidir sanal makinenin internet ayarlarını yapmalıyız yoksa internete açılamayız. Ağ ayarlarını seçerken hangi alanda kullanım yapmak istiyorsanız o alana göre uygun olanı seçmeniz daha iyi olacaktır. Hangi ağ alanı ne iş yapar? Ağ alanları:
+1. **BRİDGED:** Sanal makineyi, fiziksel ağa doğrudan bağlar. Gerçek IP alır. Alanları ise sunucu çalıştırma, fiziksel ağ ile iletişim.  
+2. **NAT (Network Address Translation):** Ana bilgisayarın internet bağlantısını paylaşır, ancak dışarıdan erişilemez. Alanları ise internete erişim yeterli ise, güvenlik açısından izole bir ortam.  
+3. **NAT Network:** NAT ile benzer ama sanal makineler aynı ağda olabilir. Alanları ise izole bir ağda birden fazla sanal makine çalıştırma.  
+4. **Host-Only:** Sanal makine sadece ana bilgisayar ile iletişim kurabilir, internet erişimi yoktur. Alanları ise izole geliştirme/test ortamları, güvenlik araştırmaları.  
+5. **Internal Network:** Sanal makineler kendi iç ağında çalışır, ana bilgisayara erişemez. Alanları ise tamamen izole sanal ağ ortamları.  
+6. **Custom Network (VMnet):** Kullanıcı tarafından özelleştirilebilir sanal ağlar. Alanları ise özel laboratuvar ortamları, karmaşık ağ testleri.  
+
+📌 **Network Adapter** kısmında eğer gerçek seneryolar gerçekleştirecekseniz Bridged(Köprü) seçebilirsiniz.
+
+**VMware | Ubuntu** başarılı bir şekilde kurmuş olacaksınız sonrasında VMware Tools ve tam ekran yapabilmek için iki adet paketi de Ubuntu üzerine yüklemenizi öneririm. 
+
+#VMware Tools
+```bash
+sudo apt update && sudo apt install open-vm-tools -y
+sudo apt install open-vm-tools-desktop -y
+```
+#VMware Desktop Tools
+```bash
+sudo apt install open-vm-tools-desktop -y
+```
+
+VMWare başarılı bir şekilde kurdunuz şimdi test ortamı oluşturabilirsiniz.
