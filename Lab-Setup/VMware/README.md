@@ -64,6 +64,7 @@ Bu adımda sanal makinenin virtual machine settings kısmına geliniz:
 **Network Adapter:** Ubuntu'nun ağ ayarlarını belirler ve önemlidir sanal makinenin internet ayarlarını yapmalıyız yoksa internete açılamayız. Ağ ayarlarını seçerken hangi alanda kullanım yapmak istiyorsanız o alana göre uygun olanı seçmeniz daha iyi olacaktır. Hangi ağ alanı ne iş yapar? 
 
 📌**Ağ alanları:**
+
 1️⃣ **BRİDGED:** Sanal makineyi, fiziksel ağa doğrudan bağlar. Gerçek IP alır. Alanları ise sunucu çalıştırma, fiziksel ağ ile iletişim.  
 2️⃣ **NAT (Network Address Translation):** Ana bilgisayarın internet bağlantısını paylaşır, ancak dışarıdan erişilemez. Alanları ise internete erişim yeterli ise, güvenlik açısından izole bir ortam.  
 3️⃣ **NAT Network:** NAT ile benzer ama sanal makineler aynı ağda olabilir. Alanları ise izole bir ağda birden fazla sanal makine çalıştırma.  
@@ -75,14 +76,14 @@ Bu adımda sanal makinenin virtual machine settings kısmına geliniz:
 
 **VMware | Ubuntu** başarılı bir şekilde kurmuş olacaksınız sonrasında VMware Tools ve tam ekran yapabilmek için iki adet paketi de Ubuntu üzerine yüklemenizi öneririm. 
 
-#VMware Tools
+## VMware Tools
 ```bash
 sudo apt update && sudo apt install open-vm-tools -y
 sudo apt install open-vm-tools-desktop -y
 ```
-#VMware Desktop Tools
+## VMware Desktop Tools
 ```bash
 sudo apt install open-vm-tools-desktop -y
 ```
 
-VMWare başarılı bir şekilde kurdunuz şimdi test ortamı oluşturabilirsiniz.
+🥳 **VMWare başarılı bir şekilde kurdunuz şimdi test ortamı oluşturabilirsiniz.**
