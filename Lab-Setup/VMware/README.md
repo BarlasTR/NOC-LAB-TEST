@@ -78,11 +78,10 @@ Bu adımda sanal makinenin virtual machine settings kısmına geliniz:
 ## VMware Tools
 ```bash
 sudo apt update && sudo apt install open-vm-tools -y
-sudo apt install open-vm-tools-desktop -y
 ```
 ## VMware Desktop Tools
 ```bash
-sudo apt install open-vm-tools-desktop -y
+sudo apt update && sudo apt install open-vm-tools-desktop -y
 ```
 
 🥳 **VMWare başarılı bir şekilde kurdunuz şimdi test ortamı oluşturabilirsiniz.**
