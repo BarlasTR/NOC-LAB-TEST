@@ -60,7 +60,6 @@ Bu adımda sanal makinenin virtual machine settings kısmına geliniz:
 **Processors:** Ubuntu'nun işlemci çekirdek boyutunu belirleyin. **4** önerilen çekirdek boyuttur.  
 **Sound Card:** Ubuntu'nun ses kartını belirleyin. **Auto detect** olarak kalabilir.  
 **Display:** Ubuntu'nun ekran yöneticisini belirler. **Auto detect** olarak kalabilir, ekran üzerinde kasma veya donma problemleri mevcut ise çözünürlük değiştirebilirsiniz.  
-**Sound Card:** Ubuntu'nun ses kartını belirleyin. **Auto detect** olarak kalabilir.  
 **Network Adapter:** Ubuntu'nun ağ ayarlarını belirler ve önemlidir sanal makinenin internet ayarlarını yapmalıyız yoksa internete açılamayız. Ağ ayarlarını seçerken hangi alanda kullanım yapmak istiyorsanız o alana göre uygun olanı seçmeniz daha iyi olacaktır. Hangi ağ alanı ne iş yapar? 
 
 📌**Ağ alanları:**
