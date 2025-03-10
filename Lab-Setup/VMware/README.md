@@ -24,7 +24,7 @@ Bu adımda Ubuntu'nun otomatik kurulumu için kullanıcı bilgilerini girin:
 - **User Name:** testuser (Kullanıcı adınızı belirleyin)  
 - **Password:** (Güvenli bir parola belirleyin)  
 
-![Kullanıcı Bilgileri](images/vm-setup2png)
+![Kullanıcı Bilgileri](images/vm-setup2.png)
 
 **Next** butonuna tıklayarak devam edin.
 
@@ -62,6 +62,7 @@ Bu adımda sanal makinenin virtual machine settings kısmına geliniz:
 **Display:** Ubuntu'nun ekran yöneticisini belirler. **Auto detect** olarak kalabilir, ekran üzerinde kasma veya donma problemleri mevcut ise çözünürlük değiştirebilirsiniz.  
 **Sound Card:** Ubuntu'nun ses kartını belirleyin. **Auto detect** olarak kalabilir.  
 **Network Adapter:** Ubuntu'nun ağ ayarlarını belirler ve önemlidir sanal makinenin internet ayarlarını yapmalıyız yoksa internete açılamayız. Ağ ayarlarını seçerken hangi alanda kullanım yapmak istiyorsanız o alana göre uygun olanı seçmeniz daha iyi olacaktır. Hangi ağ alanı ne iş yapar? 
+
 📌**Ağ alanları:**
 1️⃣ **BRİDGED:** Sanal makineyi, fiziksel ağa doğrudan bağlar. Gerçek IP alır. Alanları ise sunucu çalıştırma, fiziksel ağ ile iletişim.  
 2️⃣ **NAT (Network Address Translation):** Ana bilgisayarın internet bağlantısını paylaşır, ancak dışarıdan erişilemez. Alanları ise internete erişim yeterli ise, güvenlik açısından izole bir ortam.  
