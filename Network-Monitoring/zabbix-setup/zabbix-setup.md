@@ -1,9 +1,7 @@
 ## Zabbix Network Monitor Kurulumu
 **Bu rehberde Zabbix nasıl kurulur onu anlatıyor olacağım.**
 
-**Zabbix Güncel Versiyon:**
-
-[Zabbix İndirme Linki](https://www.zabbix.com/download)
+**Zabbix Güncel Versiyon:** [İndirme Linki](https://www.zabbix.com/download)
 
 ## 📌 **1. Sistem Dosyalarını Güncelleme**  
 
