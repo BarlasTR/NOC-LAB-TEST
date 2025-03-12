@@ -23,10 +23,10 @@
 Her aracın kurulum rehberlerine ve konfigürasyon adımlarına yönlendirmeler aşağıda bulunmaktadır:
 
 ### 1️⃣ **Zabbix Kurulumu ve Yapılandırma**
-📌 **Zabbix ile sistem ve ağ izleme yapmak için** [Zabbix-Setup.md](/docs/zabbix-setup.md) dosyasına göz atabilirsiniz.
+📌 **Zabbix ile sistem ve ağ izleme yapmak için** [Zabbix-Setup.md](https://github.com/BarlasTR/NOC-LAB-TEST/blob/main/Network-Monitoring/Docs/zabbix-setup.md) dosyasına göz atabilirsiniz.
 
 ### 2️⃣ **Grafana Kurulumu ve Dashboard Yönetimi**
-📊 **Grafana ile Zabbix verilerini görselleştirmek için** [Grafana-Setup.md](docs/grafana-setup.md) dosyasını takip edin.
+📊 **Grafana ile Zabbix verilerini görselleştirmek için** [Grafana-Setup.md](https://github.com/BarlasTR/NOC-LAB-TEST/blob/main/Network-Monitoring/Docs/grafana-setup.md) dosyasını takip edin.
 
 ### 3️⃣ **Wireshark Kullanımı ve Trafik Analizi**
 🔎 **Ağ paketlerini analiz etmek ve anormal trafiği tespit etmek için** [Wireshark-Usage.md](/docs/wireshark-setup.md) dosyasına göz atın.
