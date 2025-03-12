@@ -3,7 +3,7 @@
 
 **Zabbix Güncel Versiyon:**
 
-![Zabbix İndirme Linki](https://www.zabbix.com/download))
+[Zabbix İndirme Linki](https://www.zabbix.com/download)
 
 ## 📌 **1. Sistem Dosyalarını Güncelleme**  
 
