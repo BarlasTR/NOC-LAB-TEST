@@ -33,8 +33,8 @@ ping -c 4 8.8.8.8
 
 🔷 **Ping Komutunun Parametreleri ve Anlamları:**
 
-🔹 - `-c <sayı>` → **Linux/macOS için** belirli sayıda ping paketi göndermek için kullanılır.  
-🔹 - `-n <sayı>` → **Windows için**, belirli sayıda ping paketi göndermek için kullanılır.  
+🔹 `-c <sayı>` → **Linux/macOS için** belirli sayıda ping paketi göndermek için kullanılır.  
+🔹 `-n <sayı>` → **Windows için**, belirli sayıda ping paketi göndermek için kullanılır.  
 🔹 `-i <saniye>` → Her ping arasında kaç saniye bekleyeceğini belirler.  
 🔹 `-w <süre>` → Ping süresi sınırını belirler (saniye cinsinden).  
 🔹 `-s <bayt>` → Gönderilecek paket boyutunu belirler.  
